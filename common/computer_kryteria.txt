@@ -1,0 +1,34 @@
+=== Proponowane kryteria oceniania czwartego zadania ===
+
+== Cele dydaktyczne ==
+
+Studenci powinni:
+- poznać szablony oraz ich specjalizację i częściową specjalizację
+- poznać, że struktury mogą mieć publiczne i prywatne metody
+- jeszcze nie poznawać dziedziczenia, polimorfizmu, to nie te zajęcia
+- poznać techniki manipulacji typami i danymi na etapie kompilacji
+- poznać constexpr
+- dowiedzieć się, że w kolejnych standardach coraz więcej elementów
+  z biblioteki standardowej ma takie oznaczenia, np. std::max od C++14
+- poznać techniki radzenia sobie z szablonami o zmiennej liczbie argumentów
+- poznać elementy biblioteki standardowej pomagające w powyższym, np.
+  type_traits
+
+== Ocena automatyczna ==
+
+Jest 6 testów:
+TODO
+
+== Ocena jakości tekstu źródłowego ==
+
+Proponuję zacząć od 4 punktów i odejmować po jednym punkcie za
+(przy czym ocena nie może być ujemna):
+* niezgodność zawartości repozytorium ze specyfikacją zadania
+* nieelegancki styl
+* kod, którego sprawdzający nie jest w stanie zrozumieć
+* ostrzeżenia wypisywane przez kompilator
+* obliczenia w trakcie wykonywania programu
+* za anonimowe przestrzenie nazw w nagłówkach
+* wszystkie błędy, których nie powinni już robić po poprzednich tematach,
+  np. brak headerguard, inicjowanie obiektów inaczej niż przez listy inicjujące,
+  przekazywanie dużych obiektów przez wartość itp.
